@@ -1,0 +1,7 @@
+For the task-2, for creating a boat, i thought of creating one half and then mirroring it along the vertical axis was my initial thoughts. So with this i began 
+making one half of the boat.
+
+First i used spline and line tool to create initial sketch, then i used extrude to make the 3d structure of boat.
+
+For making it hollow inside, i created another sketch which i extrude cut and made the internal structures. Then using pipe i tried creating strakes of the 
+boat then i mirrored it.
