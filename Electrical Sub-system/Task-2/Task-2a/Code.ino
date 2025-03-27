@@ -5,8 +5,6 @@ int echoPin = 9;
 int input1 = 7;
 int input2 = 8;
 
-int ENA = 6;
-
 void setup()
 {
   //defining their pin type
@@ -14,7 +12,6 @@ void setup()
   pinMode(echoPin, INPUT);
   pinMode(input1, OUTPUT);
   pinMode(input2, OUTPUT);
-  pinMode(ENA, OUTPUT);
 }
 
 void loop()
@@ -42,14 +39,12 @@ void loop()
   {
     digitalWrite(input1, HIGH);
     digitalWrite(input2, LOW);
-    //analogWrite(ENA, 1023);
   }
   
   if (distance >= 15 && distance < 20)
   {
     digitalWrite(input1, LOW);
     digitalWrite(input2, HIGH);
-    //nalogWrite(ENA, 1023);
   }
   
   else
